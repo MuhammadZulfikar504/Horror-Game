@@ -13,6 +13,6 @@ public class Button : MonoBehaviour
     public void Close()
     {
         SceneManager.LoadScene(0);
-        BackgroundSong.Instance.gameObject.GetComponent<AudioSource>().Play();
+        BackSong.Instance.gameObject.GetComponent<AudioSource>().Play();
     }
 }
